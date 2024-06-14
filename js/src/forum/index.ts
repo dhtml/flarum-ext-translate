@@ -4,7 +4,7 @@ app.initializers.add('dhtml/flarum-ext-translate', () => {
   console.log("Translation initialized");
 
 
-  alert(app.translator.trans('flarum-ext-contactme.forum.title'));
+  console.log(app.translator.trans('flarum-ext-contactme.forum.title'));
 
   /*
   extend(HeaderPrimary.prototype, 'items', function(items: { add: (arg0: string, arg1: any) => void; }) {
